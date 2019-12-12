@@ -1,0 +1,16 @@
+1.9.8 version update log:
+
+1.Optimize the function of limiting account validity period;
+         2. Allow autonomous modification of ports;
+3. Optimize some operations. Although you may not feel it, it is really optimized.
+4.Fix some historical issues.
+
+statement:
+  If you install this script, it means that you have trusted me and my script. If you cannot trust it, please uninstall it immediately! This script is only for the convenience of individuals to build agents or game acceleration services. Please do not use this script to set up illegal wall services. Commercial use is prohibited.
+
+
+After this version, the script will be stopped. For details, please see the GitHub homepage!
+
+					
+				2018-02-11
+=======================================================
