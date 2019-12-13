@@ -111,9 +111,9 @@ if [[ $devc == 4 ]];then
 	echo "To avoid accidental disconnection and installation interruption, it is recommended to run in screen"
 	echo "The installation script was not written by me, source：https://github.com/mmmwhy/ss-panel-and-ss-py-mu/blob/master/ss-panel-v3-mod.sh"
 	echo "Default account: 91vps Default password: 91vps"
-	echo -e "Enter below to indicate that you are aware of the risks and agree to the installation. Entering other content will exit the installation！"
+	echo -e "Enter fordie below to indicate that you are aware of the risks and agree to the installation. Entering other content will exit the installation！"
 	read -n 6 -p "please enter： " choise
-	if [[ $choise == $rsum ]];then
+	if [[ $choise == fordie ]];then
 		wget -q -N --no-check-certificate https://raw.githubusercontent.com/mmmwhy/ss-panel-and-ss-py-mu/master/ss-panel-v3-mod.sh && chmod +x ss-panel-v3-mod.sh && bash ss-panel-v3-mod.sh
 	else
 		echo "Typing error, installation exit！"
@@ -159,9 +159,9 @@ if [[ $devc == 5 ]];then
 		echo "2. This script only supports Debian / Ubuntu system to replace the kernel, OpenVZ and Docker do not support kernel replacement"
 		echo "3. During the Debian kernel replacement, you will be prompted [Are you sure you want to stop uninstalling the kernel], please select NO "
 		echo ""
-		echo -e "Enter below to indicate that you are aware of the risks and agree to the installation. Entering other content will exit the installation！"
+		echo -e "Enter fordie below to indicate that you are aware of the risks and agree to the installation. Entering other content will exit the installation！"
 		read -n 6 -p "please choose： " choise
-		if [[ $choise == $rsum ]];then
+		if [[ $choise == fordie ]];then
 			bbrcheck
 			bash bbr.sh
 		else
